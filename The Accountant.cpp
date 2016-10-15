@@ -13,7 +13,7 @@ int main()
             int dataId, dataX, dataY;
             cin >> dataId >> dataX >> dataY; cin.ignore();
         }
-        double dist = 999999999;
+        int dist = 999999999;
         int nId, nX, nY; // nearestId, nearestX, nearestY
         cin >> enemyCount; cin.ignore();
         for (int i = 0; i < enemyCount; i++) {
